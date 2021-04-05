@@ -1,0 +1,36 @@
+{
+    "info": {
+        "url_png_icon_64x64": "http://roast.rizome.io/roast_icon.png",
+        "url_png_logo": "http://roast.rizome.io/roast_icon.png",
+        "location": "Vilnius, Lithuania",
+        "social": {
+            "twitter_handle": "rizomeio",
+            "telegram_handle": "roastpool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "rizome-io"
+        },
+        "company": {
+            "name": "rizome.io",
+            "addr": "Islandijos, 2",
+            "city": "Vilnius",
+            "country": "Lithuania",
+            "company_id": "123456789",
+            "vat_id": "GB123456789"
+        },
+        "about": {
+            "me": "Solutions Architect specializing in web applications. 15+ years in devops and server management.",
+            "server": "cloud/local hybrid setup, primary servers provisioned by DigitalOcean, extra hidden relays on local machines running rPi4, RockPiX",
+            "company": "Provides consulting, research and development for distributed/decentralized data technologies, smart-contracts"
+        },
+        "rss": "http(s) url to valid RSS feed"
+    },
+    "my-pool-ids": {
+        "0": "0d7af673b35b05c292168bab17b1069493d2d10fe095071f355fd724"
+    },
+    "when-satured-then-recommend": {
+        "0": "0d7af673b35b05c292168bab17b1069493d2d10fe095071f355fd724"
+    }
+}
