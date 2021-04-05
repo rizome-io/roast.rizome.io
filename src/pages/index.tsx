@@ -94,7 +94,9 @@ export default ({data}) => {
 
   return (
     <main sx={{ pb: 4, mx: 'auto' }}>
-      <Helmet>
+      <Helmet
+        defaultTitle="Cardano roast stake pool"
+      >
         <title>Cardano roast stake pool</title>
         <meta name="description" content="Delegate Cardano to low saturation pool" />
         <meta name="keywords" content="cardano, stake, stakepool, pool, delegate, delegation, margin, mining, staking" />
