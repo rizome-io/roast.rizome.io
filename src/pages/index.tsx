@@ -7,6 +7,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import { getPoolData, PoolSummary } from '../services/adapool'
 
+import { Social } from '../comp/social'
 import { Feats } from '../comp/feats'
 
 import { Helmet } from 'react-helmet'
@@ -103,6 +104,9 @@ export default ({data}) => {
         <BackgroundSection />
       </section>
       <Feats />
+      <Flex sx={{ mt: '3em', justifyContent: 'center' }}>
+        <Social />
+      </Flex>
     </main>
   )
 }
