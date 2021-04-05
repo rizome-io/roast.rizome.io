@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image"
-import { Card, Container, Grid, Heading } from "theme-ui";
+import { Card, Container, Flex, Grid, Heading } from "theme-ui";
 export const Feats = () => {
 
   const {featImgs } = useStaticQuery(
@@ -41,12 +41,12 @@ export const Feats = () => {
     }
   ];
 
-  const cardsx = { p: ['1em', '2em'], pt: [0, 0], textAlign: 'center' }
+  const cardsx = { p: ['1em', '2em'], pt: [0, 0], m: '1em', width: [ '28em', '20em', '24em' ], textAlign: 'center' }
   return (
-      <Grid columns={ [1, 3] } gap={ ['1em', '2em'] } sx={{ mx: ['2em', '4em', '8em'] }}>
+    <Flex sx={{justifyContent: 'center', flexWrap: 'wrap', width: '100%'}}>
         {content.map((c, i) =>
           <Card sx={cardsx} key={i}>
-            <Container sx={{width: ['40%', '100%', '100%', '50%'], mt: [-20, 0, 0, -10]}}>
+            <Container sx={{width: [ '80%', '60%' ], mt: [-20, 0, 0, -10]}}>
             <Img fluid={img[i].fluid} sx={ {mx: 'auto'} } />
             </Container>
             <Heading as='h3' sx={{mt: [ -20, 0, 0, -20 ], mb: '1em'}}>
@@ -58,8 +58,6 @@ export const Feats = () => {
 
           </Card>
         )}
-
-      </Grid>
-
+    </Flex>
   )
 };
